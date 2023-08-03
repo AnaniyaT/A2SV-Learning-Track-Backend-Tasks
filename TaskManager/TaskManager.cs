@@ -7,6 +7,7 @@ namespace TaskManager;
 public class TaskManagerApp
 {
     public List<TaskItem> tasks { get; } = new List<TaskItem>();
+
     async Task AddTask(String name, String? description, TaskCategory category, bool completed = false, bool addToLocal = false)
     {
         TaskItem task = new TaskItem() { 
@@ -155,7 +156,7 @@ public class TaskManagerApp
                     split[0],
                     split[1],
                     TaskCategoryFromString(split[2]),
-                    split[3] == "true"
+                    split[3] == "True"
                 );
             }
             
