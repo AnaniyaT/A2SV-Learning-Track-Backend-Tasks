@@ -118,7 +118,6 @@ public class TaskManagerApp
                 {
                     String line = $"{task.Name},{task.Description},{task.Category},{task.IsCompleted}\n";
                     await writer.WriteAsync(line);
-                    writer.Close();
                 }
             }
         }
@@ -131,17 +130,15 @@ public class TaskManagerApp
     
     async Task UpdateLocal()
     {
-        await using (FileStream file = new FileStream("tasks.csv", FileMode.Open))
+        await using (FileStream file = new FileStream("tasks.csv", FileMode.Create))
         {
+            StreamWriter writer = new StreamWriter(file);
             foreach (var task in tasks)
             {
-                await using (StreamWriter writer = new StreamWriter(file))
-                {
-                    String line = $"{task.Name},{task.Description},{task.Category},{task.IsCompleted}\n";
-                    await writer.WriteAsync(line);
-                    writer.Close();
-                }
+                String line = $"{task.Name},{task.Description},{task.Category},{task.IsCompleted}";
+                await writer.WriteLineAsync(line);
             }
+            writer.Close();
         }
     }
 
