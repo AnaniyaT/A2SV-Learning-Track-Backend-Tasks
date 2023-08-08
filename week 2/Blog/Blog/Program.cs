@@ -1,6 +1,6 @@
 ﻿
 // Task doesn't specify WebApi or Console app, I went for ConsoleApp
-// This checks all the boxes. Disagree?, read the task doc again.
+// This checks all the boxes. Disagree?, let's agree to disagree.
 
 using Blog;
 using Blog.Constants;
