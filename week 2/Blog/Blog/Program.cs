@@ -5,20 +5,14 @@
 using Blog;
 using Blog.Constants;
 using Blog.Data;
-using Blog.Models;
-using Blog.Services;
 using Microsoft.EntityFrameworkCore;
 
+Console.WriteLine("Connecting to database...");
 var builder = new DbContextOptionsBuilder()
     .UseNpgsql(Constants.PgDbConnectionString);
+Console.WriteLine("Connected to database.");
 
 var context = new BlogDbContext(builder.Options);
-var postManager = new PostManager(context);
-var commentManager = new CommentManager(context);
+var cli = new Cli(context);
 
-Console.WriteLine("Hello, World!");
-
-var display = new BlogDisplay(context);
-display.DisplayPosts();
-Console.WriteLine("Detailed View");
-display.DisplayDetails(6);
+cli.Start();
