@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8ad14b30_002De8c4_002D4975_002Db17a_002D7ecbdf6de8f8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.GetAll_ReturnsAllComments&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.PostManagerTests.GetAll_ReturnsAllPosts&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.PostManagerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.GetById_ReturnsCommentWithMatchingId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.GetByPostID_ReturnsCommentsWithMatchingPostID&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.Create_CreatesAndReturnsNewlyCreatedComment&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.Update_UpdatesAndReturnsUpdatedComment&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.Delete_DeletesCommentWithMatchingId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.Update_ThrowsExceptionWhenCommentDoesNotExist&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
