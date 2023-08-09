@@ -3,5 +3,14 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.CommentServiceTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.CommentsControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Get_ReturnsAllPosts&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Get_WithValidId_ReturnsPostWithMatchingId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Get_WithInValidId_ReturnsNotFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Post_CreatesAndReturnsNewlyCreatedPost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Patch_UpdatesAndReturnsPostWithMatchingId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Patch_WithInvalidId_ReturnsBadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Delete_WithValidId_DeletesPostAndReturnsNoContent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6395FE3E-C743-4A46-9377-71E31E96E52C::net7.0::UnitTests.PostControllerTest.Delete_WithInvalidId_ReturnsBadRequest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
