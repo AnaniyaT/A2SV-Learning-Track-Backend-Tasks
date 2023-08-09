@@ -11,5 +11,6 @@
     &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.Delete_DeletesCommentWithMatchingId&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.CommentManagerTests.Update_ThrowsExceptionWhenCommentDoesNotExist&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::Blog.Tests.BlogDisplayTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1D7355D8-92E5-44B7-8183-1D9A1931696E::net7.0::UnitTests.BlogDisplayTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
