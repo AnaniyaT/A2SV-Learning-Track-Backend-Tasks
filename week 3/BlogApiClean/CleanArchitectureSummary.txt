@@ -1,0 +1,19 @@
+Clean Architecture
+
+ - Also called Onion Architecture
+ - Does not fit for all types of projects. Best used for projects having a complex business logic and requiring a lot of testing
+ - Separating the layers into different projects helps to enforce dependency rules we want to follow.
+ - Domain layer is the lowest layer and doesn't depend on anything else where as the rest of the layers depend on the domain layer.
+
+Pros and cons
+
+    Pros:
+    - Clean architecture promotes a clear separation of concerns
+    - Makes it easier to follow SOLID principles
+    - Since there is a well defined boundary between layers, It makes unit testing more straightforward and easier.
+    - Easier to change because change in one layer doesn't heavily impact other layers
+    
+    cons:
+    - More complex
+    - Learning Curve
+    - Time consuming to implement at first
