@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApiClean.Domain", "src\Core\BlogApiClean.Domain\BlogApiClean.Domain.csproj", "{02466CA8-392B-403A-8018-B095927C9BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApiClean.Application", "src\Core\BlogApiClean.Application\BlogApiClean.Application.csproj", "{917D91CC-5FE7-4634-87DC-7A8EAD809EF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02466CA8-392B-403A-8018-B095927C9BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02466CA8-392B-403A-8018-B095927C9BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02466CA8-392B-403A-8018-B095927C9BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02466CA8-392B-403A-8018-B095927C9BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917D91CC-5FE7-4634-87DC-7A8EAD809EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917D91CC-5FE7-4634-87DC-7A8EAD809EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917D91CC-5FE7-4634-87DC-7A8EAD809EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917D91CC-5FE7-4634-87DC-7A8EAD809EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
